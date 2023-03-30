@@ -7,9 +7,9 @@ export const addTodo = (payload) => {
   };
 };
 
-export const removeTodo = (payload) => {
+export const updateTodo = (payload) => {
   return {
-    type: "REMOVE_TODO",
+    type: "UPDATE_TODO",
     payload,
   };
 };

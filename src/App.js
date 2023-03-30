@@ -5,7 +5,7 @@ import ListTodo from "./components/ListTodo";
 function App() {
   return (
     <div className="App">
-      <h1>Hello React!</h1>
+      <h1>Simple Todo App</h1>
       <AddTodo />
       <ListTodo />
     </div>

@@ -16,6 +16,7 @@ export default function AddTodo() {
     const payload = {
       id: generateGuid(),
       value,
+      isComplete: false,
     };
 
     // setting the text value to empty
