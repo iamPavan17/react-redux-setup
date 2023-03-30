@@ -31,10 +31,6 @@ function App() {
       <h1>Hello React!</h1>
       <input value={value} onChange={handleChange} />
       <button onClick={handleSubmit}>Save</button>
-
-      {todos.map((todo) => (
-        <p key={todo.id}>{todo.value}</p>
-      ))}
     </div>
   );
 }
